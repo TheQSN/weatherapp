@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+  }
+  100% {
+    transform: translateY(110vh) translateX(20vw);
+  }
+}
+
+@keyframes rainfall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+  }
+  100% {
+    transform: translateY(110vh) translateX(5vw);
+  }
+}
+
+.weather-particle {
+  position: absolute;
+  pointer-events: none;
+}
+
+.snow {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  animation: snowfall 5s linear infinite;
+}
+
+.rain {
+  width: 2px;
+  height: 20px;
+  background: #a3e0ff;
+  animation: rainfall 1s linear infinite;
+}
