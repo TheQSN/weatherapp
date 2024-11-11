@@ -11,16 +11,7 @@ const popularCities: City[] = [
   { id: '6', name: 'Dubai', country: 'AE' },
   { id: '7', name: 'Singapore', country: 'SG' },
   { id: '8', name: 'Moscow', country: 'RU' },
-  { id: '8', name: 'Omsk', country: 'RU' },
-  { id: '8', name: 'Ekaterinburg', country: 'RU' },
-  { id: '8', name: 'Irkutsk', country: 'RU' },
-  { id: '8', name: 'Kaliningrad', country: 'RU' },
-  { id: '8', name: 'Saint Petersburg', country: 'RU' },
-  { id: '8', name: 'Chelyabinsk', country: 'RU' },
-  { id: '8', name: 'Astrakhan', country: 'RU' },
-  { id: '8', name: 'Gatchina', country: 'RU' },
-  { id: '8', name: 'Lipetsk', country: 'RU' },
-  { id: '8', name: 'Tyumen', country: 'RU' },
+  { id: '9', name: 'Saint Petersburg', country: 'RU' },
 ];
 
 interface CitySelectorProps {
