@@ -73,6 +73,7 @@ export default function Settings({ settings, onSettingsChange }: SettingsProps) 
                   <option value="fr">Français</option>
                   <option value="de">Deutsch</option>
                   <option value="ja">日本語</option>
+                  <option value="ru">Русский</option>
                 </select>
               </div>
 
